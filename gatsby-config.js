@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: "Thoughts and Things",
+    descriptin: "Where I write about thoughts and things that come and go."
   },
-  plugins: [`gatsby-plugin-react-helmet`],
-}
+  plugins: ["gatsby-plugin-react-helmet", "gatsby-transformer-remark"]
+};
