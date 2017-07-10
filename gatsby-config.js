@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/blog",
   siteMetadata: {
     title: "Thoughts and Things",
     descriptin: "Where I write about thoughts and things that come and go."
