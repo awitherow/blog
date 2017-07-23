@@ -13,12 +13,16 @@
       "page-component---src-templates-blog-post-js-f0fdd9f5c43e478c4fd9.js.map"
     ],
     "page-component---src-pages-index-js": [
-      "page-component---src-pages-index-js-df4fb49397189a4b8ffd.js",
-      "page-component---src-pages-index-js-df4fb49397189a4b8ffd.js.map"
+      "page-component---src-pages-index-js-599fd852f3336c82286d.js",
+      "page-component---src-pages-index-js-599fd852f3336c82286d.js.map"
     ],
     "path---posts-empty-cup-filled": [
       "path---posts-empty-cup-filled-ae247a27ae4dc21c1372.js",
       "path---posts-empty-cup-filled-ae247a27ae4dc21c1372.js.map"
+    ],
+    "path---posts-crypto-lesson-stop-sell-importance": [
+      "path---posts-crypto-lesson-stop-sell-importance-6e39f32b9a2c85e0bd58.js",
+      "path---posts-crypto-lesson-stop-sell-importance-6e39f32b9a2c85e0bd58.js.map"
     ],
     "path---index": [
       "path---index-586c7e095e534a3909ec.js",
@@ -37,8 +41,8 @@
       "page-component---src-pages-404-js-f555dc6d19c896ccbe44.js.map"
     ],
     "app": [
-      "app-e2274f666def4c9f7702.js",
-      "app-e2274f666def4c9f7702.js.map"
+      "app-ac67f17c4dc3b8244c2c.js",
+      "app-ac67f17c4dc3b8244c2c.js.map"
     ]
   }
 }
