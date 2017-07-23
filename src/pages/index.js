@@ -17,6 +17,9 @@ export default class Index extends Component {
             <Link to="/posts/empty-cup-filled/">
               Empty your cup and fill it from mine.
             </Link>
+            <Link to="/posts/crypto-lesson-stop-sell-importance/">
+              The importance of setting a stop sell price.
+            </Link>
           </li>
         </ul>
       </div>
