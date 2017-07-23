@@ -1,29 +1,29 @@
-import React from "react"
-import PropTypes from "prop-types"
-import Helmet from "react-helmet"
+import React from "react";
+import PropTypes from "prop-types";
+import Helmet from "react-helmet";
 
-import { TypographyStyle } from "react-typography"
-import typography from "./utils/typography"
+import { TypographyStyle } from "react-typography";
+import typography from "./utils/typography";
 
-const BUILD_TIME = new Date().getTime()
+const BUILD_TIME = new Date().getTime();
 
 export default class HTML extends React.Component {
   static propTypes = {
-    body: PropTypes.string,
-  }
+    body: PropTypes.string
+  };
 
   render() {
-    const head = Helmet.rewind()
+    const head = Helmet.rewind();
 
-    let css
+    let css;
     if (process.env.NODE_ENV === "production") {
       css = (
         <style
           dangerouslySetInnerHTML={{
-            __html: require("!raw!../public/styles.css"),
+            __html: require("!raw!../public/styles.css")
           }}
         />
-      )
+      );
     }
 
     return (
@@ -45,8 +45,9 @@ export default class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
+          <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=4ca2470c-db5d-4855-b1f2-065e869b1438" />
         </body>
       </html>
-    )
+    );
   }
 }

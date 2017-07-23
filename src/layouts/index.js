@@ -17,7 +17,7 @@ export default class Home extends Component {
           <div style={styles.header}>
             <h1 style={{ margin: 0 }}>
               <Link to="/" style={styles.link}>
-                Home
+                Thoughts and Things
               </Link>
             </h1>
           </div>
