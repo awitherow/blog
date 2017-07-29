@@ -1,0 +1,2 @@
+webpackJsonp([5],{"./node_modules/json-loader/index.js!./.cache/json/posts-crypto-lesson-stop-sell-importance.json":function(e,t){e.exports={data:{markdownRemark:{html:"<h1>The Importance of Setting a “Stop Sell”</h1>\n<h2>When purchasing a crypto currency, setting a stop sell immediately after purchase is one of the safest ways to manage your investment.</h2>",frontmatter:{title:""}}},pathContext:{slug:"/posts/crypto-lesson-stop-sell-importance/"}}}});
+//# sourceMappingURL=path---posts-crypto-lesson-stop-sell-importance-42d73d2367ad76efed0b.js.map
