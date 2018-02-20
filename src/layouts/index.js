@@ -22,9 +22,7 @@ export default class Home extends Component {
             </h1>
           </div>
         </div>
-        <div style={styles.children}>
-          {this.props.children()}
-        </div>
+        <div style={styles.children}>{this.props.children()}</div>
       </div>
     );
   }
