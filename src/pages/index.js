@@ -4,95 +4,83 @@ import Helmet from "react-helmet";
 
 import HashtagList from "../components/hashtagList";
 
-const allHashTags = [
-  "daoism",
-  "wing chun",
-  "cryptocurrency",
-  "blockchain",
-  "trading"
-];
-
 export default class Index extends Component {
   render() {
     return (
       <div>
-        <h2>
-          Welcome to my blog, which I hope to keep maintained as a collection of
-          useful thoughts and things.
-        </h2>
-
-        <h3>Things I've Written</h3>
-        <p style={styles.innerP}>
-          Topics I write about are below in the form of hash tags. Each post is
-          tagged below.
+        <p>
+          I keep this blog up to date with thoughts of mine, and other things. I
+          hope you enjoy! If you would like to get in touch, please do so via{" "}
+          <a href="https://goo.gl/forms/1OpJc6cIkFskf3Zi2">
+            this form any time
+          </a>!
         </p>
-        <HashtagList tags={allHashTags} />
 
-        <h4>Blog Posts</h4>
+        <h2 style={styles.heading}>Table of Contents</h2>
+
+        <ul>
+          <li>
+            <a href="#blog-posts">Blog Posts</a>
+          </li>
+          <li>
+            <a href="#books">Books</a>
+          </li>
+          <li>
+            <a href="#recommendations">Recommendations</a>
+          </li>
+        </ul>
+
+        <h3 style={styles.heading} id="blog-posts">
+          Blog Posts
+        </h3>
         <ul>
           <li>
             <Link to="/posts/empty-cup-filled/">
-              Empty your cup and fill it from mine.{" "}
+              Empty your cup and fill it from mine.
             </Link>
             <HashtagList tags={["wing chun", "daoism"]} />
           </li>
         </ul>
-        <h4>Books</h4>
+        <h3 style={styles.heading} id="books">
+          Books
+        </h3>
 
         <p>Coming soon...</p>
 
-        <h3>Recommended</h3>
+        <h3 style={styles.heading} id="recommendations">
+          Recommendations
+        </h3>
         <p>
           A collection of recommended things sorted by category. If you're
           looking to learn something, these are the best of the best that I've
           gathered as I've toiled through the internet.
         </p>
 
-        <h4>Philosophy</h4>
+        <h4 style={styles.heading}>Philosophy</h4>
         <ul>
           <li>
             <a target="_blank" href="http://amzn.to/2vyGzmW">
               The Enchiridion
             </a>
           </li>
+          <li>
+            <a target="_blank" href="http://amzn.to/2CaIbtJ">
+              Advanced Yoga Practices - Easy Lessons for Ecstatic Living
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.lawofone.info">
+              The Law of One
+            </a>
+          </li>
         </ul>
 
-        <h4>Hustle</h4>
+        <h4 style={styles.heading}>"Conspiracy"</h4>
         <ul>
           <li>
-            Stay on top of the crypto currency market with a daily trends email
-            from:{" "}
-            <a
-              target="_blank"
-              href="https://www.coinsheet.org/?mwr=5038-f2d70e29"
-            >
-              Coinsheet
-            </a>.
-          </li>
-
-          <li>
-            Learn about Crypto Currency Charts:{" "}
-            <a target="_blank" href="http://amzn.to/2gUA76F">
-              Top 10 Trading Setups: How to Find them, When to Trade them, How
-              to Make Money with Them by Ivaylo Ivanov.
-            </a>.
-            <HashtagList inline tags={["crypto", "trading"]} />
-          </li>
-          <li>
-            Need to transfer money between currency super fast with super low
-            fees?{" "}
-            <a target="_blank" href="https://transferwise.com/u/lewisw1">
-              Transerwise
-            </a>{" "}
-            is the best solution.
-            <HashtagList inline tags={["finance"]} />
-          </li>
-
-          <li>
-            <a target="_blank" href="http://amzn.to/2v6NxCr">
-              The Way of the Turtle
-            </a>: Insights into Trading Philosophy. Follow the Turtle Way.{" "}
-            <HashtagList inline tags={["crypto", "trading"]} />
+            <a target="_blank" href="http://amzn.to/2ERKjaG">
+              Behold, A Pale Horse
+            </a>
           </li>
         </ul>
       </div>
@@ -101,7 +89,7 @@ export default class Index extends Component {
 }
 
 const styles = {
-  innerP: {
+  heading: {
     marginBottom: 8
   }
 };
